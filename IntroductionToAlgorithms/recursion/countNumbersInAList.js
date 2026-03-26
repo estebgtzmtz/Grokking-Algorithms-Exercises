@@ -1,5 +1,4 @@
 const countNumbersInAList = (array, index = 0) => {
-
     if (index === array.length) return 0
 
     return 1 + countNumbersInAList(array, index + 1)
