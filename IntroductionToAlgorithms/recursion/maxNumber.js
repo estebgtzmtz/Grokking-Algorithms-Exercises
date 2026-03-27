@@ -1,8 +1,6 @@
 const findMaxNumber = (array, index = 0) => {
     // Base case: last element
-    if (index === array.length - 1) {
-        return array[index];
-    }
+    if (index === array.length - 1) return array[index];
 
     let subMax = findMaxNumber(array, index + 1);
 
